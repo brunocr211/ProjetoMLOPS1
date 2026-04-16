@@ -18,4 +18,16 @@ Organize o seu projeto com a seguinte estrutura (Note que o diretório contém s
   - deploy.yml         # Ficheiro de fluxo de trabalho do GitHub Actions
 - requirements.txt     # Dependências Python
 
+```
+
+## Descrição das tarefas
+
+### Tarefa 1: Carregar o modelo pré-treinado (10 pontos)
+
+- Escreva um script em Python (`load_model.py` no diretório `src/`) para carregar o modelo pré-treinado usando `pickle`.
+- Certifique-se de que o modelo seja carregado corretamente do diretório `models/`, onde o arquivo `churn_model.pkl` está armazenado.
+
+---
+
+### Tarefa 2: Previsão interativa (10 pontos)
 
