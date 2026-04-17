@@ -30,4 +30,15 @@ Organize o seu projeto com a seguinte estrutura (Note que o diretório contém s
 ---
 
 ### Tarefa 2: Previsão interativa (10 pontos)
+- Implemente um script em Python (`run_model.py`) para solicitar ao usuário os dados do cliente (por exemplo, pontuação de crédito, idade, saldo, número de produtos, etc.).
+- Use o modelo pré-treinado para prever se o cliente irá cancelar o serviço com base nos valores inseridos.
 
+---
+
+### Tarefa 3: Dockerizar a aplicação (10 pontos)
+
+- Crie um `Dockerfile` que:
+  1. Use **Python 3.8 ou posterior** como imagem base.
+  2. Copie os arquivos necessários (modelo, scripts, etc.) para o contêiner.
+  3. Instale as dependências necessárias do `requirements.txt`.
+  4. Execute o script `run_model.py` dentro do contêiner.
