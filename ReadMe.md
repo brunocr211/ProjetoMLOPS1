@@ -42,3 +42,25 @@ Organize o seu projeto com a seguinte estrutura (Note que o diretório contém s
   2. Copie os arquivos necessários (modelo, scripts, etc.) para o contêiner.
   3. Instale as dependências necessárias do `requirements.txt`.
   4. Execute o script `run_model.py` dentro do contêiner.
+---
+
+### Tarefa 4: Configurar o pipeline de CI/CD com o GitHub Actions (10 pontos)
+
+- Configure um fluxo de trabalho do GitHub Actions que:
+  1. Instale as dependências.
+  2. Compile a imagem do Docker.
+  3. Execute o contêiner para rodar o script `run_model.py`.
+- O fluxo de trabalho deve ser acionado sempre que alterações forem enviadas para o branch `main`.
+
+---
+
+### Usando o GitHub Codespaces
+
+Para desenvolver e testar o projeto, use o **GitHub Codespaces** como seu ambiente de desenvolvimento:
+
+1. **Faça um fork do repositório** e clique no botão verde **Code** no seu repositório forkado.
+2. Selecione **Codespaces** e escolha “Create codespace on main” para abrir seu ambiente de desenvolvimento.
+3. Quando seu Codespace estiver pronto, vá até a pasta `src/` e comece a trabalhar nos scripts `load_model.py` e `run_model.py`.
+4. Siga a estrutura do projeto para implementar cada tarefa e testar seu código diretamente no Codespace.
+
+---
