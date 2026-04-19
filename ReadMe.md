@@ -64,3 +64,21 @@ Para desenvolver e testar o projeto, use o **GitHub Codespaces** como seu ambien
 4. Siga a estrutura do projeto para implementar cada tarefa e testar seu código diretamente no Codespace.
 
 ---
+## Instruções para envio
+
+- Envie os seguintes arquivos:
+  - Scripts Python (`load_model.py`, `run_model.py` no diretório `src/`),
+  - Dockerfile (no diretório principal),
+  - Fluxo de trabalho de CI/CD (`deploy.yml` em `.github/workflows/`),
+  - Modelo pré-treinado (`churn_model.pkl` em `models/`).
+- Certifique-se de que seu repositório esteja devidamente organizado e testado. Você pode usar o **GitHub Codespaces** para testar seu código antes do envio.
+
+---
+
+## Critérios de avaliação
+
+- **Carregamento do modelo (10 pontos):** Certifique-se de que o modelo pré-treinado seja carregado corretamente a partir do diretório `models/`.
+- **Previsão interativa (10 pontos):** O script deve solicitar entradas e retornar uma previsão válida sobre a rotatividade de clientes.
+- **Dockerização (10 pontos):** Verifique se a imagem do Docker é compilada com sucesso e executa o modelo.
+- **Pipeline de CI/CD (10 pontos):** O fluxo de trabalho do GitHub Actions deve automatizar o processo de compilação e execução.
+
