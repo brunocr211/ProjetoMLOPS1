@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Neste desafio, irá implementar um modelo de aprendizagem automática pré-treinado para prever a rotatividade de clientes utilizando o conjunto de dados «Bank Customer Churn Dataset». O modelo fornecido (`churn_model.pkl`) será integrado num pipeline para carregamento do modelo, recolha de dados de entrada e previsão. Também irá automatizar o processo utilizando o Docker e o GitHub Actions para CI/CD. O GitHub Codespaces irá ajudá-lo a configurar, executar e testar o projeto num ambiente consistente.
+Neste desafio, irá implementar um modelo de aprendizagem automática pré-treinado para prever a rotatividade de clientes utilizando o conjunto de dados «Bank Customer Churn Dataset». O modelo fornecido (`churn_model.pkl`) será integrado num pipeline para carregamento do modelo, recolha de dados de entrada e previsão. Também irá automatizar o processo utilizando o Docker e o GitHub Actions para CI/CD. O GitHub Codespaces irá ajudá-lo a configurar, executar e testar o projeto num ambiente consistente
 
 ### Observe a estrutura do repositório 
 
